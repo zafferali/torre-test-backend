@@ -6,7 +6,7 @@ from rest_framework import status
 
 @api_view(['GET'])
 def getUserSkills(request, username):
-    url = f"https://torre.bio/api/bios/{username}" 
+    url = f"https://torre.bio/api/bios/{username}"
     response = requests.get(url)
 
     if response.status_code == 404:
