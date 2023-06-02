@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q27-glks-nne033r*@4=q3dj*xdaq0yl9ss^ig3jph+fw*6pxu
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['vercel.com/zafferali/torre-test-backend/Hd7tajd64z7hHrsfBsmCbUpSyRvg', 'torre-test-backend.vercel.app/', '127.0.0.1']
+ALLOWED_HOSTS = ['*', 'vercel.com/zafferali/torre-test-backend/Hd7tajd64z7hHrsfBsmCbUpSyRvg', 'torre-test-backend.vercel.app/', '127.0.0.1']
 
 
 # Application definition
